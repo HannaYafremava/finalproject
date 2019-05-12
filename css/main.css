@@ -39,10 +39,13 @@ li{
     color: whitesmoke;
     padding-right: 20px;
 }
+
 a{
     text-decoration: none;
-    color: whitesmoke;
+    color: whitesmoke; 
 }
+
+
 a:hover{
     color: lightskyblue;
 }
