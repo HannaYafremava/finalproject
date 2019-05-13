@@ -1,12 +1,18 @@
 header{
-    background-image: url("../img/one.jpg");
+    background-image: url("../img/two.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; background-position: center;
     padding: 10%;
-    font-family: "Times New Roman";
+    font-family: "Lucida Handwriting";
     font-weight: bold;
     font-size: xx-large;
     color: whitesmoke;
 
 }
+
+
+
+
 
 section{
     padding: 50px;
@@ -17,7 +23,7 @@ section{
 
 
 div{
-    background: lightgray;
+font-family: "Lucida Handwriting", "sans-serif";
 }
 
 footer{
@@ -42,10 +48,23 @@ li{
 
 a{
     text-decoration: none;
-    color: whitesmoke; 
+    color: whitesmoke;
 }
 
 
 a:hover{
     color: lightskyblue;
+}
+
+.about {
+    font-family: "Times New Roman";
+    text-indent: 40px;
+
+}
+.t{
+    font-family: "Lucida Handwriting", "sans-serif";
+}
+
+body{
+    background-color:#e6e6e6;
 }
