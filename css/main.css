@@ -3,7 +3,7 @@ header{
     background-repeat: no-repeat;
     background-size: cover; background-position: center;
     padding: 10%;
-    font-family: "Lucida Handwriting";
+    font-family: "Lucida Handwriting", "Times New Roman", serif;
     font-weight: bold;
     font-size: xx-large;
     color: whitesmoke;
@@ -23,12 +23,12 @@ section{
 
 
 div{
-font-family: "Lucida Handwriting", "sans-serif";
+font-family: "Lucida Handwriting", "Times New Roman", serif;
 }
 
 footer{
-    background-color: lightskyblue;
-
+    background-color: dimgrey;
+    font-family: "Lucida Handwriting", "Times New Roman", serif;
     margin: 10px;
     padding: 5%;
 }
@@ -57,14 +57,19 @@ a:hover{
 }
 
 .about {
-    font-family: "Times New Roman";
+    font-family: "Times New Roman", Times, serif;
     text-indent: 40px;
-
+    font-size: large;
 }
+
 .t{
-    font-family: "Lucida Handwriting", "sans-serif";
+    font-family: "Lucida Handwriting", "Times New Roman", serif;
 }
 
 body{
     background-color:#e6e6e6;
+}
+
+p{
+    font-size: large;
 }
